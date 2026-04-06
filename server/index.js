@@ -18,7 +18,7 @@ app.use(authRouter);            // Auth routes
 // MongoDB Connection
 // ======================================
 const MONGO_URI =
-    'mongodb+srv://piyush:OC4AH10aMsUP1HaH@cluster0.ryixdjc.mongodb.net/?appName=Cluster0';
+    'mongodb+srv://uername:password@cluster0.ryixdjc.mongodb.net/?appName=Cluster0';
 
 mongoose
     .connect(MONGO_URI)
